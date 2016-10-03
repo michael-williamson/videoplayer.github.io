@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize">
+    <link rel="stylesheet" type="text/css" href="css/styles">
+    <title>Video Player</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="video-container">
+        <video id="video">
+          <source src="video_player/video/video.mp4" type="video/mp4">
+          <source src="video_player/video/video.ogg" type="video/ogg" >
+          <track label="English" kind="subtitles" srclang="en" src="video_player/video/captions.vtt" default>
+        </video>
+       <div class="player-container">
+          <div class="progress-bar-container">
+            <progress id="buffer-bar" class="buffer-bar" value="0" max="100">0% played</progress>
+            <progress id="progress-bar" class="progress-bar" value="0" max="100"></progress>
+          </div>
+          <div id='media-controls'>
+            <button id='play-pause-btn' class='play' title='play'></button>
+            <div class="time-counter"><span id="current" class="current">00:00</span> / <span id="duration" class="duration">00:00</span></div>
+            <button id="video-speed-btn">1X</button>
+            <button id="volume-icon-btn" type="button"></button>
+            <input id="volume-slider" type="range" min="0" max="100" value="25" step="1">
+            <button id="closedcaption-btn">CC</button>
+            <button id="fullscreen-btn"></button>
+          </div>
+        </div>
+        </div>
+        <div id="caption-container" class="caption-container">
+              <input id="text-slider" type="range" min="10" max="45" value="30" step="1">
+              <span class="font-size-slider">Aa</span>
+              <button id="singleClick" class="singleClick">Click for Single line</button>
+              <button id="dblClick" class="dblClick">Double Click for All Text</button>
+            <p class="caption-paragraph">
+                    <span id="1" data-startTime="0.18">Now that we've looked at the architecture of the internet, let's see how you might</span>
+                    <span id="2" data-startTime="4.13">connect your personal devices to the internet inside your house.</span>
+                    <span id="3" data-startTime="7.54">Well there are many ways to connect to the internet, and</span>
+                    <span id="4" data-startTime="11.27">most often people connect wirelessly.</span>
+                    <span id="5" data-startTime="13.96">Let's look at an example of how you can connect to the internet.</span>
+                </p>
+                <p class="caption-paragraph">
+                    <span id="6" data-startTime="17.94">If you live in a city or a town, you probably have a coaxial cable for</span>
+                    <span id="7" data-startTime="22.37">cable Internet, or a phone line if you have DSL, running to the outside of</span>
+                    <span id="8" data-startTime="26.88">your house, that connects you to the Internet Service Provider, or ISP.</span>
+                </p>
+                <p class="caption-paragraph">
+                    <span id="9" data-startTime="32.10">If you live far out in the country, you'll more likely have</span>
+                    <span id="10" data-startTime="34.73">a dish outside your house, connecting you wirelessly to your closest ISP, or</span>
+                    <span id="11" data-startTime="39.43">you might also use the telephone system.</span>
+                    <span id="12" data-startTime="42.35">Whether a wire comes straight from the ISP hookup outside your house, or</span>
+                    <span id="13" data-startTime="46.30">it travels over radio waves from your roof,</span>
+                    <span id="14" data-startTime="49.27">the first stop a wire will make once inside your house, is at your modem.</span>
+                    <span id="15" data-startTime="53.76">A modem is what connects the internet to your network at home.</span>
+                    <span id="16" data-startTime="57.78">A few common residential modems are DSL or</span>
+                </p>
+       
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    
+  </body>

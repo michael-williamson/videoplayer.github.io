@@ -1,0 +1,66 @@
+@media screen and (min-width: 480px){
+  
+  .main-container {
+   width: 75%; 
+  }  
+  
+  #vol-slider {
+  display: inline-block; 
+  width: 20%;   
+  } 
+  
+  #text-slider {
+  display: inline-block; 
+  }
+  
+  .font-size-slider {
+  display: inline-block;
+  }
+};
+
+@media screen and (min-width: 728px){
+  
+   .main-container {
+   width: 75%; 
+   max-width: 960px; 
+  }  
+  
+  .progress-bar-container{
+         top: 16px;
+         height: 20px;
+    
+        .progress-bar, .buffer-bar {
+            height: 5px; 
+            bottom: 15px; 
+       }
+    }
+  
+ 
+
+ .video-container {
+
+  &:hover {
+     #media-controls {
+        height: 30px;
+       
+      }
+   #media-controls {
+          top: 5px; 
+        }
+        
+        .player-container {
+        height: 50px; 
+        }
+      
+        #volume-slider{
+          display: inline-block;
+     }
+      }
+  }
+  
+  .dblClick, .singleClick {
+    width: 145px; 
+    height: 25px; 
+    font-size: .7em; 
+}
+};

@@ -1,0 +1,36 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;    
+}
+
+body {
+  margin: 0; 
+}
+
+video { 
+ 
+  width: 100%; 
+  align-content: center; 
+  }
+
+
+
+.main-container {
+  width: 100%; 
+  margin: 0 auto; 
+  position: relative; 
+}
+
+.video-container {
+  background-size: 60%; 
+  position: relative; 
+  color: white; 
+ }
+
+.player-container {
+  position: absolute; 
+  width: 100%;
+  height: 20px; 
+  bottom: 13px; 
+}
