@@ -4,6 +4,10 @@
    width: 75%; 
   }  
   
+  .video-container {
+    margin: 10px auto 0; 
+  }
+  
   #vol-slider {
   display: inline-block; 
   width: 20%;   
@@ -11,6 +15,7 @@
   
   #text-slider {
   display: inline-block; 
+  width: 15%;
   }
   
   .font-size-slider {

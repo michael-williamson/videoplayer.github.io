@@ -118,10 +118,11 @@ span {
 .dblClick, .singleClick {
     width: 120px; 
     height: 15px; 
-    margin: 0 auto; 
+    margin: 0 auto 1px; 
     display: block;
     padding-bottom: 0; 
     font-size: .5em;
+    border-radius: 11px; 
 }
 
 
