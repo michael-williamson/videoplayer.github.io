@@ -29,12 +29,12 @@ function getPercentage(current,duration){
 
 function videoPlay(){
     video.play();
-    $(playPauseBtn).css('background-image', "url('../video_player/icons/pause-icon.png')");
+    $(playPauseBtn).css('background-image', "url('/video_player/icons/pause-icon.png')");
 }
 
 function videoPause(){
     video.pause();
-    $(playPauseBtn).css('background-image', "url('../video_player/icons/play-icon.png')");
+    $(playPauseBtn).css('background-image', "url('/video_player/icons/play-icon.png')");
 }
 
 function togglePlayPause () {
@@ -137,12 +137,12 @@ volumeSlider.addEventListener('mouseup',setVolume,false);
 
 function volumeOff(){
     video.muted = true;
-    $(volumeIconBtn).css('background-image',"url(../video_player/icons/volume-off-icon.png)");
+    $(volumeIconBtn).css('background-image',"url('/video_player/icons/volume-off-icon.png')");
 }
 
 function volumeOn(){
     video.muted = false;
-    $(volumeIconBtn).css('background-image',"url(../video_player/icons/volume-on-icon.png)");
+    $(volumeIconBtn).css('background-image',"url('/video_player/icons/volume-on-icon.png')");
 }
 
 function toggleVolumeMute(){
