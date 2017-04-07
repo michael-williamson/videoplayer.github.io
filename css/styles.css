@@ -38,15 +38,15 @@ video {
   border-radius: 1px; }
 
 #play-pause-btn {
-  background-image: url("../video_player/icons/play-icon.png");
+  background-image: url("./video_player/icons/play-icon.png");
   background-size: 80%; }
 
 #volume-icon-btn {
-  background-image: url("../video_player/icons/volume-off-icon.png");
+  background-image: url("./video_player/icons/volume-off-icon.png");
   background-size: 100%; }
 
 #fullscreen-btn {
-  background-image: url("../video_player/icons/fullscreen-icon.png");
+  background-image: url("./video_player/icons/fullscreen-icon.png");
   background-size: 100%; }
 
 #play-pause-btn, #volume-icon-btn, #fullscreen-btn,
